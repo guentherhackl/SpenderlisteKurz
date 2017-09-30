@@ -14,7 +14,7 @@ Diese zwei Tabellen können auf der Website durchgeblättert werden, wobei immer
 10 Spender pro Seite angezeigt werden.
 
 Für diese Analyse wurden mittels R-Scripts die Spendenhöhe und das Datum der Spenden
-auf jeder Seite ausgelesen und in einem csv-Datei zusammengeführt. Diese Daten werden
+auf jeder Seite ausgelesen und in einer csv-Datei zusammengeführt. Diese Daten werden
 zweimal heruntergeladen und verglichen, da sonst fehlende und doppelte Einträge
 entstehen könnten, wenn während des Downloads eine neue Spende auftauchen würde.
 Um die Privatsphäre zu schützen, wurde außerdem entschieden die Namen der spendenden
@@ -34,7 +34,7 @@ Diagramme wiefolgt:
 ![Diagramme Spendenliste](./output/plot.svg "Verhältnisse Klein- und Großspenden")
 Aus den Daten wurde erfasst, dass ca. 99,4 % der 8269 Spenden als Kleinspenden (bis 3.500 €)
 kategorisiert sind. Die ca. 0,6 % Großspenden machen etwa 59,6 % der gesamt 2.010.567 € an
-Spendengeldern aus. Aus der quantiles-Datei, lässti sich entnehmen, dass 90 % der Spenden
+Spendengeldern aus. Aus der quantiles-Datei, lässt sich entnehmen, dass 90 % der Spenden
 kleiner als 125 € sind, der Median bei 50 € und das Minimum bei 0 € liegt. Bei
 Kontrolle der Daten auf der Website wurde festgestellt, dass tatsächlich 2 Personen
 0 € gespendet haben. Dies deutet darauf hin, dass diese Personen weniger als einen Euro
@@ -42,6 +42,6 @@ gespendet haben und die Werte auf der Website auf ganze Euro gerundet werden.
 
 ## Kommentar
 Wichtig ist noch zu erwähnen, dass hier die Spenden und nicht die Spender analysiert wurden.
-Es kommt durchaus vor, dass Personen öfter, oder gemeinsam (Vorname und Vorname Nachnahme) spenden,
-jedoch können hier ohnen Namen keine genauern Aussagen gemacht werden. Auch mit Namen sind
-nur Schätzungen möglich, da etliche Personen auf der Website nicht genannt werden wollen.
+Es kommt durchaus vor, dass Personen öfter, oder gemeinsam spenden, jedoch können hier ohnen
+Namen keine genauern Aussagen gemacht werden. Auch mit Namen sind nur Schätzungen möglich,
+da etliche Personen auf der Website nicht genannt werden wollen.
