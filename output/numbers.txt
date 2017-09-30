@@ -1,0 +1,4 @@
+           typ spenden spendenRel anzahlSpenden anzahlSpendenRel
+1 grossspenden 1197674     0.5957            50            0.006
+2 kleinspenden  812873     0.4043          8218            0.994
+3       gesamt 2010547          1          8268                1
