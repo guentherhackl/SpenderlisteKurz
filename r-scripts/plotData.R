@@ -18,14 +18,14 @@ plotData <- function(grossspenden, kleinspenden) {
   #styling ggplot
   plotAesthetics <- aes(x=factor(""), y=Summary, fill = factor(type))
   p <- ggplot(data=plotData, plotAesthetics) 
-  p <- p + geom_bar(width = 1, stat = "identity") + 
+  p <- p + geom_bar(width = 1, stat = "identity", color = "black") + 
         facet_grid(facets = . ~ category) +
         coord_polar(theta="y") + 
         xlab('') + ylab('') + 
         labs(fill='Spendertyp') + 
         scale_fill_manual(values=c("#62C3D0","#A5F4FF")) + 
         theme(axis.ticks=element_blank(), axis.text.x=element_blank(), axis.text.y=element_blank()) + 
-        theme(panel.grid.major = element_line(colour = "grey75"), panel.grid.minor = element_line(colour = "grey75")) +
+        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
         theme(strip.text.x = element_text(size = rel(1.8)))
   
   #saving ggplot as svg
