@@ -23,9 +23,10 @@ plotData <- function(grossspenden, kleinspenden) {
         coord_polar(theta="y") + 
         xlab('') + ylab('') + 
         labs(fill='Spendertyp') + 
-        scale_fill_manual(values=c("#62C3D0","#A5F4FF")) + 
+        scale_fill_manual(values=c("#62c2d0","#9af0fd")) + 
         theme(axis.ticks=element_blank(), axis.text.x=element_blank(), axis.text.y=element_blank()) + 
         theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+        theme(panel.background = element_rect(fill = "white", color = "black"), strip.background = element_rect(color = "black")) +
         theme(strip.text.x = element_text(size = rel(1.8)))
   
   #saving ggplot as svg
