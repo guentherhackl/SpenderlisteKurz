@@ -31,7 +31,7 @@ Ergebnisse werden im /output-Ordner abgelegt und umfassen
 ## Ergebnisse
 Für die Daten die am 30.09.2017 um 18:26 veröffentlicht waren ergeben sich die
 Diagramme wiefolgt:
-![Diagramme Spendenliste](https://github.com/G-nther/SpenderlisteKurz/tree/master/output/plot.svg?sanitize=true "Verhältnisse Klein- und Großspenden")
+<img src="https://github.com/G-nther/SpenderlisteKurz/tree/master/output/plot.svg">
 Aus den Daten wurde erfasst, dass ca. 99,4 % der 8269 Spenden als Kleinspenden (bis 3.500 €)
 kategorisiert sind. Die ca. 0,6 % Großspenden machen etwa 59,6 % der gesamt 2.010.567 € an
 Spendengeldern aus. Aus der quantiles-Datei, lässti sich entnehmen, dass 90 % der Spenden
