@@ -5,6 +5,7 @@ Da Sebastian Kurz seine Spenderliste transparent und für jeden einsehbar zur Ve
 Die Spenderliste ist auf der Website von Sebastian Kurz frei zugänglich ([Link zur Spenderliste](https://www.sebastian-kurz.at/spendenuebersicht, "Spenderliste Sebastian Kurz")). Diese Liste ist in zwei Tabellen unterteilt:
 * Kleinspenden (bis 3.500 €)
 * ausweispflichtige Spenden (ab 3.501 €)
+
 Diese zwei Tabellen können auf der Website durchgeblättert werden, wobei immer zehn Spender pro Seite angezeigt werden.
 
 Für diese Analyse wurden mittels R-Scripts die Spendenhöhe und das Datum der Spenden auf jeder Seite ausgelesen und in einer csv-Datei zusammengeführt. Diese Daten werden zweimal heruntergeladen und verglichen, da sonst fehlende und doppelte Einträge entstehen könnten, wenn während des Downloads eine neue Spende auftauchen würde. Um die Privatsphäre zu schützen, wurde außerdem entschieden, die Namen der spendenden Personen nicht zu speichern.
