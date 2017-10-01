@@ -18,7 +18,7 @@ plotData <- function(grossspenden, kleinspenden) {
   #styling ggplot
   plotAesthetics <- aes(x=factor(""), y=Summary, fill = factor(type))
   p <- ggplot(data=plotData, plotAesthetics) 
-  p <- p + geom_bar(width = 1, stat = "identity", color = "black") + 
+  p <- p + geom_bar(width = 1, stat = "identity") + 
         facet_grid(facets = . ~ category) +
         coord_polar(theta="y") + 
         xlab('') + ylab('') + 
@@ -26,7 +26,7 @@ plotData <- function(grossspenden, kleinspenden) {
         scale_fill_manual(values=c("#62c2d0","#9af0fd")) + 
         theme(axis.ticks=element_blank(), axis.text.x=element_blank(), axis.text.y=element_blank()) + 
         theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
-        theme(panel.background = element_rect(fill = "white", color = "black"), strip.background = element_rect(color = "black")) +
+        theme(panel.background = element_rect(fill = "white")) +
         theme(strip.text.x = element_text(size = rel(1.8)))
   
   #saving ggplot as svg
